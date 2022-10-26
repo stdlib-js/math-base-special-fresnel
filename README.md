@@ -43,17 +43,33 @@ Some sources define the Fresnel integrals using t<sup>2</sup> for the argument o
 
 <!-- /.intro -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/math-base-special-fresnel
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import fresnel from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fresnel@esm/index.mjs';
+var fresnel = require( '@stdlib/math-base-special-fresnel' );
 ```
 
-#### fresnel( \[out,] x )
+#### fresnel( x )
 
 Simultaneously computes the [Fresnel integrals][fresnel-integral] S(x) and C(x).
 
@@ -74,14 +90,16 @@ v = fresnel( NaN );
 // returns [ NaN, NaN ]
 ```
 
-By default, the function returns the S(x) and C(x) as a two-element `array`. To avoid extra memory allocation, the function supports providing an output (destination) object.
+#### fresnel.assign( x, out, stride, offset )
+
+Simultaneously computes the [Fresnel integrals][fresnel-integral] S(x) and C(x) and assigns results to a provided output array.
 
 ```javascript
-import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@esm/index.mjs';
+var Float64Array = require( '@stdlib/array-float64' );
 
 var out = new Float64Array( 2 );
 
-var v = fresnel( out, 0.0 );
+var v = fresnel.assign( 0.0, out, 1, 0 );
 // returns <Float64Array>[ ~0.0, ~0.0 ]
 
 var bool = ( v === out );
@@ -98,14 +116,9 @@ var bool = ( v === out );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import linspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-linspace@esm/index.mjs';
-import fresnel from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fresnel@esm/index.mjs';
+```javascript
+var linspace = require( '@stdlib/array-base-linspace' );
+var fresnel = require( '@stdlib/math-base-special-fresnel' );
 
 var x = linspace( 0.0, 10.0, 100 );
 
@@ -113,10 +126,6 @@ var i;
 for ( i = 0; i < x.length; i++ ) {
     console.log( fresnel( x[ i ] ) );
 }
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -147,7 +156,7 @@ for ( i = 0; i < x.length; i++ ) {
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -204,9 +213,9 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/math/base/special/fresnelc]: https://github.com/stdlib-js/math-base-special-fresnelc/tree/esm
+[@stdlib/math/base/special/fresnelc]: https://github.com/stdlib-js/math-base-special-fresnelc
 
-[@stdlib/math/base/special/fresnels]: https://github.com/stdlib-js/math-base-special-fresnels/tree/esm
+[@stdlib/math/base/special/fresnels]: https://github.com/stdlib-js/math-base-special-fresnels
 
 <!-- </related-links> -->
 
