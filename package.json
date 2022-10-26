@@ -42,10 +42,13 @@
     "@stdlib/constants-float64-pi": "^0.0.x",
     "@stdlib/math-base-special-abs": "^0.0.x",
     "@stdlib/math-base-special-sincos": "^0.0.x",
-    "@stdlib/types": "^0.0.x"
+    "@stdlib/types": "^0.0.x",
+    "@stdlib/utils-define-nonenumerable-read-only-property": "^0.0.x"
   },
   "devDependencies": {
     "@stdlib/array-base-linspace": "^0.0.x",
+    "@stdlib/array-float64": "^0.0.x",
+    "@stdlib/assert-has-own-property": "^0.0.x",
     "@stdlib/bench": "^0.0.x",
     "@stdlib/constants-float64-eps": "^0.0.x",
     "@stdlib/constants-float64-ninf": "^0.0.x",
