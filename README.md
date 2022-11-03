@@ -50,13 +50,13 @@ Some sources define the Fresnel integrals using t<sup>2</sup> for the argument o
 ## Usage
 
 ```javascript
-import fresnel from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fresnel@deno/mod.js';
+import fresnel from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fresnel@v0.0.7-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { assign } from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fresnel@deno/mod.js';
+import { assign } from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fresnel@v0.0.7-deno/mod.js';
 ```
 
 #### fresnel( x )
@@ -108,7 +108,7 @@ var bool = ( v === out );
 
 ```javascript
 import linspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-linspace@deno/mod.js';
-import fresnel from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fresnel@deno/mod.js';
+import fresnel from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fresnel@v0.0.7-deno/mod.js';
 
 var x = linspace( 0.0, 10.0, 100 );
 
