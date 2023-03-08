@@ -30,10 +30,14 @@ The [Fresnel integrals][fresnel-integral] are defined as
 
 <!-- <equation class="equation" label="eq:fresnel_integrals" align="center" raw="\begin{align} S(x) &= \int_0^x \sin\left(\frac{\pi}{2} t^2\right)\,\mathrm{d}t, \\ C(x) &= \int_0^x \cos\left(\frac{\pi}{2} t^2\right)\,\mathrm{d}t. \end{align}" alt="Fresnel integral"> -->
 
-<div class="equation" align="center" data-raw-text="\begin{align} S(x) &amp;= \int_0^x \sin\left(\frac{\pi}{2} t^2\right)\,\mathrm{d}t, \\ C(x) &amp;= \int_0^x \cos\left(\frac{\pi}{2} t^2\right)\,\mathrm{d}t. \end{align}" data-equation="eq:fresnel_integrals">
+```math
+\begin{align} S(x) &= \int_0^x \sin\left(\frac{\pi}{2} t^2\right)\,\mathrm{d}t, \\ C(x) &= \int_0^x \cos\left(\frac{\pi}{2} t^2\right)\,\mathrm{d}t. \end{align}
+```
+
+<!-- <div class="equation" align="center" data-raw-text="\begin{align} S(x) &amp;= \int_0^x \sin\left(\frac{\pi}{2} t^2\right)\,\mathrm{d}t, \\ C(x) &amp;= \int_0^x \cos\left(\frac{\pi}{2} t^2\right)\,\mathrm{d}t. \end{align}" data-equation="eq:fresnel_integrals">
     <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@591cf9d5c3a0cd3c1ceec961e5c49d73a68374cb/lib/node_modules/@stdlib/math/base/special/fresnel/docs/img/equation_fresnel_integrals.svg" alt="Fresnel integral">
     <br>
-</div>
+</div> -->
 
 <!-- </equation> -->
 
@@ -140,8 +144,8 @@ for ( i = 0; i < x.length; i++ ) {
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/math/base/special/fresnelc`][@stdlib/math/base/special/fresnelc]</span><span class="delimiter">: </span><span class="description">compute the Fresnel integral C(x).</span>
--   <span class="package-name">[`@stdlib/math/base/special/fresnels`][@stdlib/math/base/special/fresnels]</span><span class="delimiter">: </span><span class="description">compute the Fresnel integral S(x).</span>
+-   <span class="package-name">[`@stdlib/math-base/special/fresnelc`][@stdlib/math/base/special/fresnelc]</span><span class="delimiter">: </span><span class="description">compute the Fresnel integral C(x).</span>
+-   <span class="package-name">[`@stdlib/math-base/special/fresnels`][@stdlib/math/base/special/fresnels]</span><span class="delimiter">: </span><span class="description">compute the Fresnel integral S(x).</span>
 
 </section>
 
@@ -195,7 +199,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 -->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://gitter.im/stdlib-js/stdlib/
+[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
