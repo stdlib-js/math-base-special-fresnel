@@ -38,26 +38,26 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/constants-float64-half-pi": "^0.1.0",
-    "@stdlib/constants-float64-pi": "^0.1.0",
+    "@stdlib/constants-float64-half-pi": "^0.1.1",
+    "@stdlib/constants-float64-pi": "^0.1.1",
     "@stdlib/math-base-special-abs": "^0.1.0",
     "@stdlib/math-base-special-sincos": "^0.1.0",
     "@stdlib/types": "^0.1.0",
-    "@stdlib/utils-define-nonenumerable-read-only-property": "^0.1.0"
+    "@stdlib/utils-define-nonenumerable-read-only-property": "^0.1.1"
   },
   "devDependencies": {
     "@stdlib/array-base-linspace": "^0.1.0",
     "@stdlib/array-float64": "^0.1.0",
-    "@stdlib/assert-has-own-property": "^0.1.0",
+    "@stdlib/assert-has-own-property": "^0.1.1",
     "@stdlib/bench": "^0.1.0",
-    "@stdlib/constants-float64-eps": "^0.1.0",
-    "@stdlib/constants-float64-ninf": "^0.1.0",
-    "@stdlib/constants-float64-pinf": "^0.1.0",
-    "@stdlib/fs-write-file": "^0.1.0",
-    "@stdlib/math-base-assert-is-nan": "^0.1.0",
+    "@stdlib/constants-float64-eps": "^0.1.1",
+    "@stdlib/constants-float64-ninf": "^0.1.1",
+    "@stdlib/constants-float64-pinf": "^0.1.1",
+    "@stdlib/fs-write-file": "^0.1.1",
+    "@stdlib/math-base-assert-is-nan": "^0.1.1",
     "@stdlib/math-base-tools-evalrational-compile": "^0.1.0",
     "@stdlib/random-base-randu": "^0.1.0",
-    "@stdlib/time-current-year": "^0.1.0",
+    "@stdlib/time-current-year": "^0.1.1",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git"
