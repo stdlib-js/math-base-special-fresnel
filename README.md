@@ -58,38 +58,32 @@ Some sources define the Fresnel integrals using t<sup>2</sup> for the argument o
 
 <!-- /.intro -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/math-base-special-fresnel
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-fresnel = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fresnel@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var fresnel = require( 'path/to/vendor/umd/math-base-special-fresnel/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fresnel@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.fresnel;
-})();
-</script>
+var fresnel = require( '@stdlib/math-base-special-fresnel' );
 ```
 
 #### fresnel( x )
@@ -139,14 +133,9 @@ var bool = ( v === out );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-base-linspace@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fresnel@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var linspace = require( '@stdlib/array-base-linspace' );
+var fresnel = require( '@stdlib/math-base-special-fresnel' );
 
 var x = linspace( 0.0, 10.0, 100 );
 
@@ -154,11 +143,6 @@ var i;
 for ( i = 0; i < x.length; i++ ) {
     console.log( fresnel( x[ i ] ) );
 }
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -238,17 +222,20 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [es-module]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules
 
 [deno-url]: https://github.com/stdlib-js/math-base-special-fresnel/tree/deno
+[deno-readme]: https://github.com/stdlib-js/math-base-special-fresnel/blob/deno/README.md
 [umd-url]: https://github.com/stdlib-js/math-base-special-fresnel/tree/umd
+[umd-readme]: https://github.com/stdlib-js/math-base-special-fresnel/blob/umd/README.md
 [esm-url]: https://github.com/stdlib-js/math-base-special-fresnel/tree/esm
+[esm-readme]: https://github.com/stdlib-js/math-base-special-fresnel/blob/esm/README.md
 [branches-url]: https://github.com/stdlib-js/math-base-special-fresnel/blob/main/branches.md
 
 [fresnel-integral]: https://en.wikipedia.org/wiki/Fresnel_integral
 
 <!-- <related-links> -->
 
-[@stdlib/math/base/special/fresnelc]: https://github.com/stdlib-js/math-base-special-fresnelc/tree/umd
+[@stdlib/math/base/special/fresnelc]: https://github.com/stdlib-js/math-base-special-fresnelc
 
-[@stdlib/math/base/special/fresnels]: https://github.com/stdlib-js/math-base-special-fresnels/tree/umd
+[@stdlib/math/base/special/fresnels]: https://github.com/stdlib-js/math-base-special-fresnels
 
 <!-- </related-links> -->
 
