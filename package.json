@@ -14,12 +14,15 @@
     }
   ],
   "main": "./lib",
+  "gypfile": false,
   "directories": {
     "benchmark": "./benchmark",
     "doc": "./docs",
     "example": "./examples",
+    "include": "./include",
     "lib": "./lib",
     "scripts": "./scripts",
+    "src": "./src",
     "test": "./test"
   },
   "types": "./docs/types",
@@ -41,7 +44,7 @@
     "@stdlib/constants-float64-half-pi": "^0.2.2",
     "@stdlib/constants-float64-pi": "^0.2.2",
     "@stdlib/math-base-special-abs": "^0.2.2",
-    "@stdlib/math-base-special-sincos": "^0.2.1",
+    "@stdlib/math-base-special-sincos": "^0.3.0",
     "@stdlib/napi-argv": "^0.2.2",
     "@stdlib/napi-argv-double": "^0.2.1",
     "@stdlib/napi-argv-float64array": "^0.2.2",
@@ -51,7 +54,7 @@
     "@stdlib/utils-library-manifest": "^0.2.2"
   },
   "devDependencies": {
-    "@stdlib/array-base-linspace": "^0.2.1",
+    "@stdlib/array-base-linspace": "^0.2.2",
     "@stdlib/array-float64": "^0.2.2",
     "@stdlib/assert-has-own-property": "^0.2.2",
     "@stdlib/constants-float64-eps": "^0.2.2",
