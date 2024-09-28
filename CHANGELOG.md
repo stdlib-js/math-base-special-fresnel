@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-09-01)
+## Unreleased (2024-09-28)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`b89c97c`](https://github.com/stdlib-js/stdlib/commit/b89c97ce0b812ff0b2aab16b4d77969d44fe3e8c) - **docs:** resolve lint errors in TS declaration files _(by Philipp Burckhardt)_
 -   [`6f3e683`](https://github.com/stdlib-js/stdlib/commit/6f3e683d6409d7b05965580c56f79e07f659d08b) - **docs:** fix return type [(#2700)](https://github.com/stdlib-js/stdlib/pull/2700) _(by Gunj Joshi)_
 -   [`a2ad2e1`](https://github.com/stdlib-js/stdlib/commit/a2ad2e1ad4f9150b818e3cf828815d4b73913f59) - **chore:** update package meta data [(#2696)](https://github.com/stdlib-js/stdlib/pull/2696) _(by stdlib-bot, Philipp Burckhardt)_
 
