@@ -4,7 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-10-01)
+## Unreleased (2025-10-02)
+
+<section class="reverts">
+
+### Reverts
+
+-   [`4a75f6d`](https://github.com/stdlib-js/stdlib/commit/4a75f6df054e6d718e40a37737938996ddd43006) - undo commits adding tests for full code coverage
+
+</section>
+
+<!-- /.reverts -->
 
 <section class="commits">
 
@@ -12,6 +22,7 @@
 
 <details>
 
+-   [`4a75f6d`](https://github.com/stdlib-js/stdlib/commit/4a75f6df054e6d718e40a37737938996ddd43006) - **revert:** undo commits adding tests for full code coverage _(by Philipp Burckhardt)_
 -   [`76a39f5`](https://github.com/stdlib-js/stdlib/commit/76a39f526428dc933cb6a16d1b05037173fe6c81) - **test:** add tests for full coverage _(by Philipp Burckhardt)_
 -   [`fc438e0`](https://github.com/stdlib-js/stdlib/commit/fc438e0edbad0689d6923d6f3edb959b96597662) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
 -   [`65ddf8d`](https://github.com/stdlib-js/stdlib/commit/65ddf8d4d51ccfda52d1c5a06408e43fb386c27e) - **test:** use .strictEqual() instead of .equal() and fix lint errors _(by Philipp Burckhardt)_
