@@ -4,7 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-06)
+## Unreleased (2026-06-03)
+
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`c3d9ed0`](https://github.com/stdlib-js/stdlib/commit/c3d9ed0054c6c6a822d7ca87876048d44c3914ba) - narrow `fresnel` return type to a two-element tuple [(#12466)](https://github.com/stdlib-js/stdlib/pull/12466)
+
+</section>
+
+<!-- /.bug-fixes -->
 
 <section class="commits">
 
@@ -12,6 +22,7 @@
 
 <details>
 
+-   [`c3d9ed0`](https://github.com/stdlib-js/stdlib/commit/c3d9ed0054c6c6a822d7ca87876048d44c3914ba) - **fix:** narrow `fresnel` return type to a two-element tuple [(#12466)](https://github.com/stdlib-js/stdlib/pull/12466) _(by Philipp Burckhardt)_
 -   [`59c9969`](https://github.com/stdlib-js/stdlib/commit/59c9969a580e74428505ba91634607f110ec71bf) - **bench:** refactor to use string interpolation in `math/base/special` [(#11388)](https://github.com/stdlib-js/stdlib/pull/11388) _(by Karan Anand)_
 
 </details>
@@ -24,9 +35,10 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
 -   Karan Anand
+-   Philipp Burckhardt
 
 </section>
 
